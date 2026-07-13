@@ -1,0 +1,6 @@
+requests>=2.31.0
+websockets>=11.0
+opencv-python>=4.8.0
+numpy>=1.26.0
+beautifulsoup4>=4.12.2
+redis>=5.0.0

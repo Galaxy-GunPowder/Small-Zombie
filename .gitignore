@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Editor / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local secrets / config
+.env
+*.env
+
+# Large local test fixtures (saved ATS pages + URL lists) — kept on disk, not in git
+real_matirials/
+
+# Recorded/generated training data (trajectories, SFT jsonl, human demos)
+/data/
